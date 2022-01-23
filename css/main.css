@@ -2,15 +2,90 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.carousel-image {
-    height: 85vh;
-    object-fit: cover;
-}
-
 .btn-main {
     color: #3F87F5;
     border-radius: 5px;
     background-color: #fff;
     padding-right: 1.7rem;
     padding-left: 1.7rem;
+}
+
+/* Card Button */
+.btn-card {
+    font-weight: 700;
+    display: block;
+    color: #3F87F5;
+    border-radius: 1.5rem;
+    background-color: rgba(244, 150, 210, 0.15);
+}
+
+.carousel-image {
+    height: 85vh;
+    object-fit: cover;
+}
+
+.section-title {
+    font-weight: 600;
+    color: #0D0925;
+}
+
+/* Package */
+.cards {
+    color: #231D4F;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-item {
+    padding: 2rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/* Active card */
+.card-item.active {
+    color: #fff;
+    background-color: #3F87F5;
+    border-radius: 1.5rem;
+    transform: translateY(-3rem);
+}
+
+.card-item.active .package-li {
+    color: #fff;
+}
+
+.card-item.active .package-li::before {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.card-item.active a.btn-card {
+    background-color: #fff;
+}
+
+
+.package-ul {
+    list-style: none;
+}
+
+.package-li {
+    font-size: 0.9rem;
+    color: #848199;
+}
+
+.package-li::before {
+    padding: 0.15rem;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: '\f00c';
+    color: #5243C2;
+    background-color: rgba(82, 67, 194, 0.13);
+    border-radius: 50%;
+    margin-right: 5px;
+
 }
