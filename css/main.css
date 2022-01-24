@@ -44,8 +44,6 @@ body {
     justify-content: space-between;
 }
 
-
-
 /* Active card */
 .card-item.active {
     color: #fff;
@@ -67,7 +65,6 @@ body {
 .card-item.active a.btn-card {
     background-color: #fff;
 }
-
 
 .package-ul {
     list-style: none;
@@ -168,5 +165,5 @@ footer {
 }
 
 .footer-content {
-    min-height: 35vh;
+    min-height: 30vh;
 }
